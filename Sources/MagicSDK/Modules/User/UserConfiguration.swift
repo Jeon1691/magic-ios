@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import MagicSDK_Web3
 
 /// Get Id Token configuration
 public class GetIdTokenConfiguration: BaseConfiguration {

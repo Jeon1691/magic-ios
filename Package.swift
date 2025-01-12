@@ -16,7 +16,6 @@ let package = Package(
             targets: ["MagicSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/magiclabs/Web3.swift.git", from:"1.1.0"),
         .package(url: "https://github.com/mxcl/PromiseKit.git", from:"6.16.2")
     ],
     targets: [
@@ -25,10 +24,7 @@ let package = Package(
         .target(
             name: "MagicSDK",
             dependencies: [
-                .product(name: "MagicSDK_Web3", package: "Web3.swift"),
-                .product(name: "Web3PromiseKit", package: "Web3.swift"),
                 .product(name: "PromiseKit", package: "PromiseKit"),
-                .product(name: "Web3ContractABI", package: "Web3.swift")
             ]),
         .testTarget(
             name: "MagicSDKTests",

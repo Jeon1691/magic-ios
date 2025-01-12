@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import MagicSDK_Web3
 
 public class WalletModule: BaseModule {
     /**

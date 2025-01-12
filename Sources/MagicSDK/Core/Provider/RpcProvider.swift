@@ -6,7 +6,6 @@
 //  Copyright © 2020 Magic Labs Inc. All rights reserved.
 //
 
-import MagicSDK_Web3
 import WebKit
 import PromiseKit
 

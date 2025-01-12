@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import MagicSDK_Web3
 
 public protocol MagicResponse: Codable {}
 

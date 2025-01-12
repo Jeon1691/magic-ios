@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import MagicSDK_Web3
 import PromiseKit
 
 public class AuthModule: BaseModule {

@@ -5,7 +5,6 @@
 //  Created by Jerry Liu on 1/20/20.
 //  Copyright © 2020 Magic Labs Inc. All rights reserved.
 //
-import MagicSDK_Web3
 import WebKit
 
 
